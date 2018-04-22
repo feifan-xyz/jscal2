@@ -1,0 +1,56 @@
+/*
+* http://www.feifan.xyz/
+*/
+
+/*日历控件：深蓝色*/
+.DynarchCalendar-topCont {
+    border: 1px solid #73b0e4 !important;
+}
+.DynarchCalendar, .DynarchCalendar-focused {
+	border-color: #fff !important;
+}
+.DynarchCalendar {
+    background-color: #ecf5ff !important;
+	-moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+.DynarchCalendar-topBar, .DynarchCalendar-bottomBar, .DynarchCalendar-focused .DynarchCalendar-topBar, .DynarchCalendar-focused .DynarchCalendar-bottomBar {
+	background-color: #73b0e4 !important;
+}
+.DynarchCalendar-focused .DynarchCalendar-hover-week {
+	background-color: #d2e9ff !important;
+}
+.DynarchCalendar-day-selected {
+    background-color: #73b0e4 !important;
+}
+.DynarchCalendar-menu-year  {
+    font-weight: normal !important;
+}
+.DynarchCalendar-title div {
+    text-shadow: none !important;
+}
+.DynarchCalendar-pressed-title div {
+	background-color: #003d79 !important;
+}
+.DynarchCalendar-dayNames div {
+    text-shadow: none !important;
+}
+.DynarchCalendar-menu {
+    background-color: #ddeeff !important;
+}
+.DynarchCalendar-menu table td div {
+    font-weight: normal !important;
+}
+.DynarchCalendar-time td {
+	font-weight: normal !important;
+}
+.DynarchCalendar-hover-bottomBar-today {
+	border: 1px solid #003d79 !important;
+}
+.DynarchCalendar-pressed-bottomBar-today {
+	background-color: #003d79 !important;
+}
+.DynarchCalendar-day-today {
+    color: #003d79 !important;
+}

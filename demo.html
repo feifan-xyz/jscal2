@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<title>JSCal2(新增样式) - 非凡前端组件(EHCJ)</title>
+	<meta charset="utf-8">
+	<meta name="description" content="EHCJ ehcj html css js">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<script type="text/javascript" src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+</head>
+
+<body>
+<script type="text/javascript" src="js/jscal2.js"></script>
+<script type="text/javascript" src="js/lang/cn.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jscal2.css" />
+<link rel="stylesheet" type="text/css" href="css/border-radius.css" />
+
+<link rel="stylesheet" type="text/css" href="css/blue/dark_blue.css" id="css" />
+
+<p>JSCal2是一个日历控件，这里为他新增4个样式！</p>
+<p>问题反馈：coderui@qq.com</p>
+
+<span>新样式：</span><br />
+<input size="20" id="f_date1" /><button id="f_btn1">深蓝色</button><br />
+<input size="20" id="f_date2" /><button id="f_btn2">浅蓝色</button><br />
+<input size="20" id="f_date3" /><button id="f_btn3">灰色</button><br />
+<input size="20" id="f_date4" /><button id="f_btn4">绿色</button><br />
+<br />
+
+<span>原样式：</span><br />
+<input size="20" id="f_date11" /><button id="f_btn11">Win2K</button><br />
+<input size="20" id="f_date12" /><button id="f_btn12">Steel</button><br />
+<input size="20" id="f_date13" /><button id="f_btn13">Gold</button><br />
+<input size="20" id="f_date14" /><button id="f_btn14">Matrix</button><br />
+
+<script type="text/javascript">
+	var oLink = document.getElementById('css');
+    
+    var cal1 = Calendar.setup({
+		onFocus: function() {
+            oLink.href = 'css/blue/dark_blue.css';
+		},
+        onSelect: function() {
+            this.hide();
+		},
+		showTime: false,
+		weekNumbers: true,
+		min: '2018-01-01'
+	});
+	cal1.manageFields("f_btn1", "f_date1", "%Y-%m-%d");
+    
+    var cal2 = Calendar.setup({
+		onFocus: function() {
+            oLink.href = 'css/blue/light_blue.css';
+		},
+        onSelect: function() {
+            this.hide();
+		},
+		showTime: false,
+		weekNumbers: true,
+		min: '2018-01-01'
+	});
+    cal2.manageFields("f_btn2", "f_date2", "%Y-%m-%d");
+    
+    var cal3 = Calendar.setup({
+		onFocus: function() {
+            oLink.href = 'css/gray/gray.css';
+		},
+        onSelect: function() {
+            this.hide();
+		},
+		showTime: false,
+		weekNumbers: true,
+		min: '2018-01-01'
+	});
+    cal3.manageFields("f_btn3", "f_date3", "%Y-%m-%d");
+    
+    var cal4 = Calendar.setup({
+		onFocus: function() {
+            oLink.href = 'css/green/green.css';
+		},
+        onSelect: function() {
+            this.hide();
+		},
+		showTime: false,
+		weekNumbers: true,
+		min: '2018-01-01'
+	});
+    cal4.manageFields("f_btn4", "f_date4", "%Y-%m-%d");
+    
+    var cal11 = Calendar.setup({
+		onFocus: function() {
+            oLink.href = 'css/win2k/win2k.css';
+		},
+        onSelect: function() {
+            this.hide();
+		},
+		showTime: false,
+		weekNumbers: true,
+		min: '2018-01-01'
+	});
+	cal11.manageFields("f_btn11", "f_date11", "%Y-%m-%d");
+    
+    var cal12 = Calendar.setup({
+		onFocus: function() {
+            oLink.href = 'css/steel/steel.css';
+		},
+        onSelect: function() {
+            this.hide();
+		},
+		showTime: false,
+		weekNumbers: true,
+		min: '2018-01-01'
+	});
+    cal12.manageFields("f_btn12", "f_date12", "%Y-%m-%d");
+    
+    var cal13 = Calendar.setup({
+		onFocus: function() {
+            oLink.href = 'css/gold/gold.css';
+		},
+        onSelect: function() {
+            this.hide();
+		},
+		showTime: false,
+		weekNumbers: true,
+		min: '2018-01-01'
+	});
+    cal13.manageFields("f_btn13", "f_date13", "%Y-%m-%d");
+    
+    var cal14 = Calendar.setup({
+		onFocus: function() {
+            oLink.href = 'css/matrix/matrix.css';
+		},
+        onSelect: function() {
+            this.hide();
+		},
+		showTime: false,
+		weekNumbers: true,
+		min: '2018-01-01'
+	});
+    cal14.manageFields("f_btn14", "f_date14", "%Y-%m-%d");
+</script>
+
+</body>
+</html>
