@@ -2,7 +2,7 @@ JSCal2是一个日历控件，这里为他新增4个样式！
 
 问题反馈：coderui@qq.com
 
-在线演示：http://ehcj.feifan.xyz/jscal2.php
+在线演示：http://ehcj.feifan.xyz/ehcj/jscal2.php
 
 
 新样式：
