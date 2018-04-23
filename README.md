@@ -1,4 +1,4 @@
-JSCal2是一个日历(Calendar)控件，这里为他新增4个样式！
+JSCal2是一个日历(Calendar)控件，我们为它新增4款简约版的样式！
 
 问题反馈：coderui@qq.com
 
